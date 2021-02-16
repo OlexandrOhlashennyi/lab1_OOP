@@ -18,7 +18,7 @@ public:
 	int getMinimum() { return min_value; }			
 	int getMaximum() { return max_value; }			
 	int getTimerDelay() { return timer_delay; }		
-	void setMinimum(int a) { min_value = a; }		
+	void setMinimum(int a) { min_value = counter = a; }		
 	void setMaximum(int a) { max_value = a; }		
 	void setTimerDelay(int a) { timer_delay = a; }	//встановлення затримки таймера(для відображення роботи лічильника)
 	void setCounter(int a);							//
